@@ -1,0 +1,121 @@
+*{
+  margin:0;
+  padding:0;
+  list-style: none;
+  list-style-type: none
+}
+img{
+  width: 100%;
+}
+.bg{
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.content{
+  position:relative;
+  .c_title{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .c_time{
+    width: 8rem;
+    margin: 0 auto;
+    margin-top: -0.5rem;
+    margin-bottom: 0.3rem;
+  }
+}
+.c_content{
+  width:94%;
+  margin:0 3%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 1rem;
+  .t_bg{
+    width:2.5rem;
+    height: 2.5rem;
+    margin:0.2rem auto;
+    img{
+      width:90%;
+      height: 90%;
+      margin-left:5%;
+      margin-top: 5%;
+      border-radius: 100%;
+    }
+  }
+  .t_li{
+    font-size: 0.35rem;
+    margin-top:0.3rem;
+    color: white;
+    text-align: center;
+    height: 3.8rem;
+    p{
+      margin:0.1rem 0;
+      padding: 0 0.1rem;
+    }
+  }
+  .t_submit{
+      border:none;
+      background-color: #00887a;
+      border-radius: 0.1rem;
+      color: white;
+      padding:0.1rem 0.2rem;
+      margin:0.2rem auto;
+      margin-bottom: 0.4rem;
+      display: block;
+      font-size: 0.35rem;
+  }
+  li{
+    width: 3.4rem;
+    background-color: #1c1666;
+    border:1px solid #0c5c9c;
+    margin: 0.2rem;
+  }
+
+}
+.load_size{
+  font-size: 0.6rem;
+}
+.weui-icon-cancel {
+    font-size: 2rem !important;
+    color: #B2B2B2 !important;
+    margin-bottom: 0.2rem !important;
+}
+.model_wx_cade{
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.4);
+  height: 100%
+}
+.model_wx{
+  width: 7rem;
+  margin:0 auto;
+  text-align: center;
+  img{
+    width: 4rem;
+  }
+  font-size: 0.5rem;
+  color: white;
+  background-color: #1c1666;
+  border:1px solid #0c5c9c;
+  padding: 1rem 0.5rem;
+  position: relative;
+}
+.model_clera{
+  position: absolute;
+  top: -0.5rem;
+  right: -0.5rem;
+  font-size: 1rem !important;
+  color: #0c5c9c !important;
+}
+.footer_bottom{
+  font-size: 0.5rem;
+  color:#0c5c9c;
+  padding:0.5rem 0;
+}
